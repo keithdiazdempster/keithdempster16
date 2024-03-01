@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+     
+      <header class="header" id="home">
+        <img
+          src="./images/home.jpg"
+          alt="john smith"
+          class="header-person-img"
+        />
+        <h3 class="header-person-name">Keith Dempster Diaz</h3>
+        <a href="#projects" class="header-btn">Projects</a>
+      </header>
+      
+      <nav class="navbar">
+        <a href="#home" class="navbar-link">home</a>
+        <a href="#about" class="navbar-link">about</a>
+        <a href="#projects" class="navbar-link">portfolio</a>
+        <a href="#contact" class="navbar-link">contact</a>
+      </nav>
+      
+      <section class="about" id="about">
+        <h1 class="about-heading section-heading">About Me</h1>
+        <div class="progress-bars-wrapper">
+          <div class="progress-bar">
+            <p class="progress-bar-text">
+              HTML
+              <span>20</span>%
+            </p>
+            <div class="progress-bar-percent"></div>
+          </div>
+
+          <div class="progress-bar">
+            <p class="progress-bar-text">
+              JavaScript
+              <span>5</span>%
+            </p>
+            <div class="progress-bar-percent"></div>
+          </div>
+
+          <div class="progress-bar">
+            <p class="progress-bar-text">
+              SASS
+              <span>0</span>%
+            </p>
+            <div class="progress-bar-percent"></div>
+          </div>
+
+          <div class="progress-bar">
+            <p class="progress-bar-text">
+              Ruby
+              <span>0</span>%
+            </p>
+            <div class="progress-bar-percent"></div>
+          </div>
+
+          <div class="progress-bar">
+            <p class="progress-bar-text">
+              Kotlin
+              <span>1</span>%
+            </p>
+            <div class="progress-bar-percent"></div>
+          </div>
+
+          <div class="progress-bar">
+            <p class="progress-bar-text">
+              MySQL
+              <span>0</span>%
+            </p>
+            <div class="progress-bar-percent"></div>
+          </div>
+        </div>
+        <div class="services">
+          <div class="service">
+            <i class="far fa-lightbulb"></i>
+            <h2 class="service-heading">Creative</h2>
+          </div>
+
+          <div class="service">
+            <i class="fas fa-cut"></i>
+            <h2 class="service-heading">Maintenance</h2>
+          </div>
+
+          <div class="service">
+            <i class="fas fa-tachometer-alt"></i>
+            <h2 class="service-heading">Fast</h2>
+          </div>
+
+          <div class="service">
+            <i class="fas fa-rocket"></i>
+            <h2 class="service-heading">Dynamic</h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <h1 class="projects-heading section-heading">My Projects</h1>
+        <div class="projects-wrapper">
+          <div class="project">
+            <div class="project-content">
+            </div>
+            <img
+              src="./images/portfolio1.png"
+              class="project-img"
+              />
+
+          </div>
+
+          <div class="project">
+            <div class="project-content">
+            </div>
+            <img
+              src="./images/portfolio2.jpg"
+              class="project-img"
+            />
+          </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h1 class="contact-heading section-heading">Contact Me</h1>
+        <form class="contact-form">
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <textarea placeholder="Message"></textarea>
+          <input type="submit" value="Send" class="contact-form-btn" />
+        </form>
+      </section>
+
+      <footer class="footer">
+        <div class="social-media-icons">
+          <a href="https://www.facebook.com/" class="social-media-link">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+          <a href="https://www.instagram.com/" class="social-media-link">
+            <i class="fab fa-instagram-square"></i>
+          </a>
+          <a href="https://www.youtube.com/" class="social-media-link">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+      </footer>
+
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
